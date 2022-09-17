@@ -78,27 +78,27 @@ require("nvim-tree").setup { -- BEGIN_DEFAULT_OPTS
             folder_arrow = true,
             git = true,
           },
-          glyphs = {
-            default = "",
-            symlink = "",
-            bookmark = "",
+         glyphs = {
+            default = "",
+            symlink = "",
+            bookmark = "",
             folder = {
-              arrow_closed = "",
-              arrow_open = "",
-              default = "",
-              open = "",
-              empty = "",
-              empty_open = "",
-              symlink = "",
-              symlink_open = "",
+              arrow_closed = "",
+              arrow_open = "",
+              default = "",
+              open = "",
+              empty = "",
+              empty_open = "",
+              symlink = "",
+              symlink_open = "",
             },
             git = {
               unstaged = "✗",
               staged = "✓",
-              unmerged = "UM",
+              unmerged = "",
               renamed = "➜",
               untracked = "★",
-              deleted = "x",
+              deleted = "",
               ignored = "◌",
             },
           },
@@ -205,23 +205,7 @@ require("nvim-tree").setup { -- BEGIN_DEFAULT_OPTS
         },
       },
     }
-require("nvim-web-devicons").set_icon {
-    py = {
-        icon = "py",
-        color = "#6203fc",
-        cterm_color = "65",
-        name = "py"},
-    json = {
-        icon = "{}",
-        color = "#fcec03",
-        cterm_color = "65",
-        name = "json"},
 
-    lua = {
-        icon = "",
-        color = "#0388fc",
-        cterm_color = "67",
-        name = "lua"}
-    }
+ 
 
-require("nvim-web-devicons").set_default_icon("ff", '#6d8086')
+
