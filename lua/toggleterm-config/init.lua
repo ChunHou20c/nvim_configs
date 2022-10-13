@@ -1,5 +1,5 @@
 require("toggleterm").setup{
-  size = 40, -- size can be a number or function which is passed the current terminal
+  size = 50, -- size can be a number or function which is passed the current terminal
   open_mapping = [[<C-\>]],
   hide_numbers = true, -- hide the number column in toggleterm buffers
   shade_filetypes = {},
@@ -23,7 +23,7 @@ require("toggleterm").setup{
     -- not natively supported but implemented in this plugin.
     border ='curved',
     -- like `size`, width and height can be a number or function which is passed the current terminal
-    width = 100,
+    width = 130,
     height = 30,
   },
 }
